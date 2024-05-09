@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/fragment_inicio">
+    <fragment
+        android:id="@+id/fragment_inicio"
+        android:name="emily.jacobo.emulador_20230089_emily.fragment_inicio"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/fragment_perfil"
+        android:name="emily.jacobo.emulador_20230089_emily.fragment_perfil"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/fragment_informacion"
+        android:name="emily.jacobo.emulador_20230089_emily.fragment_informacion"
+        android:label="Información"
+        tools:layout="@layout/fragment_informacion" />
+    <fragment
+        android:id="@+id/fragment_contactanos"
+        android:name="emily.jacobo.emulador_20230089_emily.fragment_contactanos"
+        android:label="Contactános"
+        tools:layout="@layout/fragment_contactanos" />
+</navigation>
